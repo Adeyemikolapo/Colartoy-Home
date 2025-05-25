@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colartoy Luxury Home Decor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+  <!-- Hero Section -->
+  <section class="bg-[url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c')] bg-cover bg-center min-h-screen flex items-center justify-center px-4">
+    <div class="bg-white bg-opacity-80 p-8 rounded-xl text-center w-full max-w-xl">
+      <h1 class="text-3xl md:text-4xl font-bold mb-4">Colartoy Luxury Home Decor</h1>
+      <p class="text-lg mb-6">Discover beautifully curated home decor that reflects your style.</p>
+      <a href="#newsletter" class="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition">Get 10% Off</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-16 px-4 text-center">
+    <h2 class="text-2xl md:text-3xl font-bold mb-8">Why Choose Us?</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div>
+        <img src="https://img.icons8.com/ios-filled/100/natural-food.png" class="mx-auto mb-4"/>
+        <h3 class="font-semibold text-xl mb-2">Eco-Friendly Materials</h3>
+        <p>We use sustainable, natural materials in every piece.</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios-filled/100/home-page.png" class="mx-auto mb-4"/>
+        <h3 class="font-semibold text-xl mb-2">Elegant Designs</h3>
+        <p>Timeless aesthetics for modern and cozy homes.</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios-filled/100/checked--v1.png" class="mx-auto mb-4"/>
+        <h3 class="font-semibold text-xl mb-2">Trusted by Thousands</h3>
+        <p>Our customers love how our decor transforms their space.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Highlights Section -->
+  <section class="py-16 px-4 text-center bg-white">
+    <h2 class="text-2xl md:text-3xl font-bold mb-8">Featured Products</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="bg-gray-100 p-4 rounded-lg">
+        <img src="https://images.unsplash.com/photo-1600585153933-9016e03fd1d0" class="w-full h-60 object-cover rounded-md mb-4" alt="Vase" />
+        <h3 class="text-xl font-semibold mb-2">Elegant Ceramic Vase</h3>
+        <p class="text-gray-600 mb-2">Perfect for minimalist floral arrangements.</p>
+        <span class="font-bold">$35.00</span>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-lg">
+        <img src="https://images.unsplash.com/photo-1582582425286-c6c2a63abdc1" class="w-full h-60 object-cover rounded-md mb-4" alt="Candle" />
+        <h3 class="text-xl font-semibold mb-2">Handcrafted Soy Candle</h3>
+        <p class="text-gray-600 mb-2">Add a cozy ambiance to any room.</p>
+        <span class="font-bold">$22.00</span>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-lg">
+        <img src="https://images.unsplash.com/photo-1582582425122-3c0f14845767" class="w-full h-60 object-cover rounded-md mb-4" alt="Wall Art" />
+        <h3 class="text-xl font-semibold mb-2">Abstract Wall Art</h3>
+        <p class="text-gray-600 mb-2">Modern decor that elevates your space.</p>
+        <span class="font-bold">$48.00</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lead Capture Section -->
+  <section id="newsletter" class="bg-gray-100 py-16 px-4">
+    <div class="max-w-xl mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-4">Join Our Decor Insider List</h2>
+      <p class="mb-6">Get 10% off your first order, exclusive tips, and seasonal inspiration straight to your inbox.</p>
+      <form action="https://formsubmit.co/adeyemikolapo1@gmail.com" method="POST" class="flex flex-col sm:flex-row gap-4">
+        <input type="email" name="email" placeholder="Your email address" class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:outline-none" required />
+        <button type="submit" class="bg-black text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800">Subscribe</button>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://adeyemikolapo.github.io/Colartoy-Decor/thank-you.html">
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t py-6 text-center text-sm">
+    <p>&copy; 2025 <a href="https://colartoy.com" class="text-blue-600 hover:underline">Colartoy Luxury Home Decor</a>. All rights reserved.</p>
+  </footer>
+</body>
+</html>
